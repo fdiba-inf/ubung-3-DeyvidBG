@@ -11,7 +11,7 @@ public class NumberCounter {
     double average = 0;
     int a = input.nextInt();
     while(a != 0) {
-      if(a % 2 == 0) positiveCounter++; else negativeCounter++;
+      if(a >= 0) positiveCounter++; else negativeCounter++;
       sum += a;
       a = input.nextInt();
     }
