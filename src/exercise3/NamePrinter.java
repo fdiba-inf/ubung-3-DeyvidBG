@@ -10,7 +10,7 @@ public class NamePrinter {
         String name = input.nextLine();
 
         for(int i = 0; i < name.length(); i++) {
-          System.out.println("*" + name.charAt(i) + "*");
+          System.out.println("* " + name.charAt(i) + " *");
         }
     }
 }
