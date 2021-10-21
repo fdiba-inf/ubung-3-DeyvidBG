@@ -22,6 +22,5 @@ public class NumberCounter {
     System.out.println("Negative numbers: " + negativeCounter);
     System.out.println("Sum: " + sum);
     System.out.println("Average: "+ average);
-    System.out.println(sum);
   }
 }
