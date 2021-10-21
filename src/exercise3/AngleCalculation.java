@@ -11,10 +11,13 @@ public class AngleCalculation {
 
         do{
           char type = input.next().charAt(0);
-          int grad = input.nextInt();
+          double grad = input.nextInt();
           if(type == 'd') {
             double r = grad*Math.PI/180;
             System.out.println("Angle: " + r + "r");
+          } else if(type == 'r') {
+            double d =  grad*180/Math.PI;
+            System.out.println("Angle: " + d + "d");
           }
         }while(flag);
     }
