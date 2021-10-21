@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NumberCounter {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    int sum = 0;
+    double sum = 0;
     int positiveCounter = 0;
     int negativeCounter = 0;
     double average = 0;
